@@ -20,10 +20,10 @@
 @media screen and (max-width: 650px) {
     .image-container {
         margin: 1em;
-        width: 50vw;
+        width: 80vw;
     }
     .course-image {
-        width: 50vw;
+        width: 80vw;
         height: 30vh;
     }
 }
