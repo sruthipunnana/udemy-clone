@@ -11,3 +11,16 @@ Technologies used:
 3. firestore
 4. bootstrap
 5. react-router-dom 
+
+
+How to run in Local: 
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sruthipunnana/udemy-clone.git
+2. Navigate to the project directory:
+   
+   ```bash
+   cd udemy-clone
+3. npm install -g create-react-app
+4. npm start
