@@ -1,0 +1,47 @@
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+}
+@media screen and (max-width: 650px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+      
+    }
+}
+
+.image-container {
+    margin: 1em;
+    width: 40vw;
+}
+@media screen and (max-width: 650px) {
+    .image-container {
+        margin: 1em;
+        width: 50vw;
+    }
+    .course-image {
+        width: 50vw;
+        height: 30vh;
+    }
+}
+
+.course-image {
+    width: 40vw;
+    height: 50vh;
+}
+
+.details-container {
+    margin: 1em;
+}
+@media screen and (max-width: 650px) {
+    .details-container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+      
+    }
+}
